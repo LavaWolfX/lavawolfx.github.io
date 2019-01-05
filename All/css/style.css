@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	line-height: 1.357;
+}
+
+a {
+	color: #fa694e;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-toggle {
+	padding: 10px;
+}
+
+.icon-bar {
+	background-color: #000;
+}
+.navbar-brand {
+	color: #111;
+	font-size: 15pt;
+	letter-spacing: 1px;
+	padding-top: 25px;
+}
+
+.navbar ul li a {
+	color: #101115;
+	height: 77px;
+	text-transform: uppercase;
+	padding: 27px 40px;
+}
+
+.navbar ul li a:hover,
+			.active a {
+	background-color: #f3f3f3;
+}
+
+hr {
+	opacity: 0.1;
+	margin-bottom: 25px;
+}
+
+#carousel .carousel-inner .item {
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+}
+
+.slide1 { background: url(../img/slide1.png); }
+.slide2 { background: url(../img/slide2.jpg); }
+.slide3 { background: url(../img/slide3.jpg); }
+#carousel .carousel-caption { bottom: 180px; text-shadow: 1px 1px #6C7A89; }
+#carousel .carousel-caption h1 { font-weight: 200; font-size: 35pt; }
+#carousel .carousel-caption p { font-size: 20pt; }
+#carousel .carousel-inner .item { height: 565px; }
+
+.btn-red {
+	background-color: #fa694e;
+	border-style: none;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 10px;
+	font-size: 15pt;
+}
+.btn-red:hover {
+	transform: scale(1.1);
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+#carousel-news .carousel-caption { bottom: 40px; text-shadow: none; }
+#carousel-news .carousel-caption h1 { color: #444547;font-weight: 400;font-size: 32pt; }
+#carousel-news .carousel-caption p { color: #5e5858;font-weight: 400;font-size: 15pt;height: 170px;overflow: hidden;line-height: 1.2; }
+#carousel-news .carousel-caption small { color: #444547;font-weight: 400;font-size: 11px; }
+#carousel-news .carousel-inner .item { height: 350px;margin-top: 20px; }
+#carousel-news .carousel-indicators { bottom: 20px; }
+#carousel-news .carousel-indicators li { border: 1px solid #897c7c; }
+#carousel-news .carousel-indicators .active { background-color: #897c7c; }
+
+.btn-red2 {
+	background-color: #fa694e;
+	border-style: none;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 7px;
+	font-size: 12pt;
+}
+
+.header-small {
+	background: url(../img/slide2.jpg) center no-repeat;
+	border-bottom: 5px solid #e5e5e5;
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	text-align: center;
+	height: 250px;
+}
+
+.header-small h1 {
+	color: #fff;
+	font-size: 27pt;
+	font-weight: 200;
+	padding-top: 100px;
+	margin: 0;
+}
+
+#server-info {
+	background: url(../img/server-info.jpg);
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	color: #fff;
+  	text-align: center;
+	height: 400px;
+	margin-top: 50px;
+}
+
+#server-info h2 {
+	margin-top: 150px;
+	margin-bottom: 10px;
+	font-size: 27pt;
+	text-transform: uppercase;
+}
+
+#server-info p {
+	font-size: 19pt;
+}
+
+#server-ranks {
+	margin: 40px 0;
+}
+
+.rank {
+	text-align: center;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.rank h2 {
+	font-size: 25pt;
+}
+
+.rank p {
+	color: #3c3a3a;
+	font-size: 13pt;
+	line-height: 19px;
+}
+
+#team {
+	background-color: #f9f9f9;
+	text-align: center;
+	padding: 30px 0 50px 0;
+	height: 445px;
+}
+
+#team h2 {
+	color: #111;
+	font-size: 33pt;
+	font-weight: 400;
+}
+
+.line {
+	background-color: #333;
+	width: 33px;
+	height: 4px;
+}
+
+.team-members h3 {
+	color: #111;
+	font-size: 23pt;
+	font-weight: 400;
+}
+
+.fa {
+	color: #888585;
+}
+
+.team-members ul {
+	text-align: center;
+	padding: 0;
+}
+
+.team-members ul li {
+	margin: 0 7px;
+	display: inline;
+}
+
+.team-members p {
+	color: #888585;
+	font-size: 17pt;
+	font-weight: 400;
+}
+
+.contact-us {
+	margin: 20px 0;
+}
+
+.contact-us input {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid #dedede;
+}
+
+.contact-us textarea {
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #dedede;
+}
+
+.social-media {
+	margin: 10px;
+}
+
+.social-media a {
+	color: #111;
+	display: block;
+	padding-top: 10px;
+}
+
+.social-media a:hover {
+	color: #fa694e;
+}
+
+.social-media a i {
+	padding-right: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	font-size: 14pt;
+	height: 123px;
+}
+
+footer h4 {
+	font-size: 24pt;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+footer ul {
+	margin-top: 53px;
+}
+
+footer ul li {
+	margin: 0 7px;
+	display: inline;
+}
+footer ul li a {
+	color: #fff;
+}
+
+@media screen and (max-width: 764px) {
+	.navbar-brand {
+		padding-top: 15px;
+	}
+	.navbar ul li a {
+		text-align: center;
+		padding: 15px 0;
+		height: auto;
+	}
+	#carousel .carousel-inner .item { 
+		height: 421px; 
+	}
+	#carousel .carousel-caption {
+		bottom: 120px;
+	}
+	#carousel .carousel-caption h1 {
+		padding-top: 30px;
+		font-size: 20pt;
+	}
+	#carousel .carousel-caption p {
+		font-size: 13pt;
+	}
+	.btn-red {
+		padding: 7px 15px;
+	}
+	#carousel-news .carousel-inner .item { height: 290px; }
+	#carousel-news .carousel-caption { top: 0;bottom: auto; }
+	#carousel-news .carousel-caption h1 { font-size: 17pt; }
+	#carousel-news .carousel-caption p { height: 137px;overflow: hidden;font-size: 13pt;line-height: 1; }
+	#server-info {
+		height: 300px;
+	}
+	#server-info h2 {
+		font-size: 	17pt;
+		margin-top: 120px;
+	}
+	#server-info p {
+		font-size: 13pt;
+	}
+	.rank img, .team-member img {
+		max-width: 100px;
+		width: 80%;
+	}
+	.rank a {
+		color: #111;
+		font-size: 18pt;
+	}
+	#team {
+		height: 720px;
+	}
+	.team-members h3 {
+		font-size: 18pt;
+	}
+	.team-members p {
+		font-size: 14pt;
+	}
+	footer h4 {
+		font-size: 19pt;
+	}
+	footer p {
+		font-size: 12pt;
+	}
+	footer ul li {
+		margin: 0 2px;
+	}
+	footer ul li a {
+		padding: 4px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.navbar ul li a {
+		height: 63px;
+		padding: 20px 30px;
+	}
+	#carousel-news .carousel-inner .item { height: 290px; }
+	#carousel-news .carousel-caption { top: 0;bottom: auto; }
+	#carousel-news .carousel-caption h1 { font-size: 18pt; }
+	#carousel-news .carousel-caption p { height: 137px;overflow: hidden;font-size: 13pt;line-height: 1; }
+}

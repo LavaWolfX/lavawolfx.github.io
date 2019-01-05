@@ -1,0 +1,20 @@
+{
+  "name": "discordlist",
+  "version": "1.0.0",
+  "description": "A collection of curated discord servers",
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mattfeldman/discordlist"
+  },
+  "author": "Matt Feldman",
+  "license": "MIT"
+}
